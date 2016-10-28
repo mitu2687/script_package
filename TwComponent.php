@@ -1,9 +1,5 @@
 <?php
 App::uses('Component', 'Controller');
-App::import('Vendor', 'TwitterValidation/Regex');
-App::import('Vendor', 'TwitterValidation/Validation');
-App::import('Vendor', 'TwitterValidation/Autolink');
-App::import('Vendor', 'TwitterValidation/HitHighlighter');
 App::import('Vendor','twitteroauth/autoload');
 use Abraham\TwitterOAuth\TwitterOAuth;
 
